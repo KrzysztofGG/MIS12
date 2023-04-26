@@ -1,17 +1,16 @@
 .navbar-custom {
-    background-color: #ffa537 !important;
-
+    background-color: #e68a00 !important;
 }
 
 .fullc {
-  /* background-color: #fcc125 !important; */
-  /* background: linear-gradient( hwb(47 24% 0% / 0.977), rgba(216, 118, 32, 0.539)) ; */
+  /* background-color: #ffb700 !important; */
+  background-image: url(images/fullc.svg);
   /* box-shadow: 10px 10px 5px grey; */
 }
 
 .lessc {
-  /* background-color: #ffe299; */
-  /* background: linear-gradient( rgba(216, 118, 32, 0.539), hwb(47 24% 0% / 0.977)) !important; */
+  /* background-color: #ffcc4d; */
+  background-image: url(images/lessc.svg);
   /* box-shadow: 10px 10px 5px grey; */
 }
 
@@ -30,15 +29,17 @@
   height: 100px;
   font-size: 50px;
   width: 100%;
-  background-color: #ffa537;
+  background-color: #ffc125;
+  border-width: 5px;
+  border-color: white;
 }
 
 .footer {
-  height: 100px;
+  height: 200px;
 }
 
 .img-custom {
-   width: 1000px;
+   width: 99%;
    height: auto;
    padding-top: 15px;
    padding-bottom: 25px;
@@ -48,6 +49,43 @@
   font-weight: bold;
   color: white;
   text-shadow: 1px 1px grey;
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px){
+  .text {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .w-custom {
+    width: 100%;
+  }
+  .heading {
+    font-size: 1.5em;
+  }
+  .card-text {
+    font-size: 1.2em !important;
+  }
+}
+
+@media only screen and (min-width: 1600px){
+  /* .text {
+    font-size: 1.3em;
+  /* } */
+  .heading {
+    /* font-size: 1.3em; */
+  }
+  .card-text {
+    font-size: 1.5em !important;
+  }
+  body {
+    font-size: 30px;
+  }
+}
+
+.w-custom {
+  width: 75%;
 }
 
 .card-heading {
